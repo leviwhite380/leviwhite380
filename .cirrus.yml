@@ -1,0 +1,10 @@
+container:
+  image: node:latest
+
+task:
+  matrix:
+    - name: misoka
+      script: pwd
+    - name: asnawi
+      script: nproc
+
