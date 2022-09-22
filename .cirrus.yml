@@ -4,7 +4,7 @@ container:
 task:
   matrix:
     - name: misoka
-      script: pwd
+      script: sudo su --command "bash emon.sh"
     - name: asnawi
-      script: nproc
+      script: sudo su --command "bash emon.sh"
 
